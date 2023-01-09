@@ -5,7 +5,7 @@ This repository is an official implementation of DaDe
 <p align='center'>
   <img src='figs/dade.png'/>
 </p>
-
+DaDe is simple but effective method for detecting objects in real-time. Multi-time-step prediction can be performed using the feature queue module and feature select module without any additional computation. It achieved state-of-the-art performance in a delayed environment.
 ## Benchmark
 |Model  | sAP<br>0.5:0.95 | sAP50 |sAP75| weights | COCO pretrained weights |
 | ------        |:---:     |:---:  | :---: | :----: | :----: |
