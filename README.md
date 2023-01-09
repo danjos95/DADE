@@ -1,5 +1,6 @@
 # Dade: Delay-adaptive Detector for Streaming Perception
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.11558)
+<!-- ## Introduction -->
 This repository is an official implementation of DaDe
 <p align='center'>
   <img src='figs/dade.png'/>
