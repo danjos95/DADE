@@ -59,7 +59,7 @@ pip install mmcv-full==1.1.5 -f https://download.openmmlab.com/mmcv/dist/{cu_ver
 ## Train
 Step1. Build symbolic link to Argoverse-HD dataset.
 ```shell
-cd <StreamYOLO_HOME>
+cd <dade_HOME>
 ln -s /path/to/your/Argoverse-1.1 ./data/Argoverse-1.1
 ln -s /path/to/your/Argoverse-HD ./data/Argoverse-HD
 ```
@@ -71,6 +71,7 @@ python tools/train.py -f cfgs/l_s50_onex_dade_tal_filp.py -d 8 -b 32 -c [/path/t
 -b: total batch size, the recommended number for -b is num-gpu * 8.
 --fp16: mixed precision training.
 -c: model checkpoint path.
+
 ## Online Evaluation
 We modify the online evaluation from sAP
 ```shell
