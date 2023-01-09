@@ -3,7 +3,8 @@
   <img src='figs/dade.png'/>
 </p>
 
-![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.11558)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.11558)
+
 ## Benchmark
 |Model  | sAP<br>0.5:0.95 | sAP50 |sAP75| weights | COCO pretrained weights |
 | ------        |:---:     |:---:  | :---: | :----: | :----: |
