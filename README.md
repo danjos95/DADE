@@ -62,13 +62,13 @@ pip install mmcv-full==1.1.5 -f https://download.openmmlab.com/mmcv/dist/{cu_ver
 ```
 
 ## Train
-### Step1. Build symbolic link to Argoverse-HD dataset.
+#### Step1. Build symbolic link to Argoverse-HD dataset.
 ```shell
 cd <dade_HOME>
 ln -s /path/to/your/Argoverse-1.1 ./data/Argoverse-1.1
 ln -s /path/to/your/Argoverse-HD ./data/Argoverse-HD
 ```
-#### Step2. Train model on Argoverse:
+#### Step2. Train model with Argoverse-HD dataset:
 ```shell
 python tools/train.py -f cfgs/l_s50_onex_dade_tal_filp.py -d 8 -b 32 -c /path/to/coco_pretrained_weights.pth -o --fp16
 ```
