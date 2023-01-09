@@ -50,14 +50,12 @@ pip3 install yolox==0.3
 git clone https://github.com/danjos95/DADE.git
 cd dade
 
-# add local path to PYTHONPATH and add this line to ~/.bashrc or ~/.zshrc (change the file accordingly)
 ADDPATH=$(pwd)
 echo export PYTHONPATH=$PYTHONPATH:$ADDPATH >> ~/.bashrc
 source ~/.bashrc
 
 # Installing `mmcv` for the official sAP evaluation:
 # Please replace `{cu_version}` and ``{torch_version}`` with the versions you are currently using.
-# You will get import or runtime errors if the versions are incorrect.
 pip install mmcv-full==1.1.5 -f https://download.openmmlab.com/mmcv/dist/{cu_version}/{torch_version}/index.html
 ```
 
