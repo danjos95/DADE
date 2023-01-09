@@ -72,10 +72,10 @@ Step2. Train model on Argoverse:
 ```shell
 python tools/train.py -f cfgs/l_s50_onex_dade_tal_filp.py -d 8 -b 32 -c [/path/to/your/coco_pretrained_path] -o --fp16
 ```
--d: number of gpu devices.
--b: total batch size, the recommended number for -b is num-gpu * 8.
---fp16: mixed precision training.
--c: model checkpoint path.
+* -d: number of gpu devices.
+* -b: total batch size, the recommended number for -b is num-gpu * 8.
+* --fp16: mixed precision training.
+* -c: model checkpoint path.
 
 ## Online Evaluation
 We modify the online evaluation from sAP
