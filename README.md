@@ -39,14 +39,15 @@ dade
 
 ## Environment Setup
 ```shell
-# basic python libraries
+# Create virtual environment
 conda create --name dade python=3.7
+conda activate dade
 
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
-
+pip install loguru
 pip3 install yolox==0.3
-git clone [git@github.com:yancie-yjr/StreamYOLO.git](https://github.com/danjos95/DADE.git)
 
+git clone [git@github.com:yancie-yjr/StreamYOLO.git](https://github.com/danjos95/DADE.git)
 cd DaDe
 
 # add local path to PYTHONPATH and add this line to ~/.bashrc or ~/.zshrc (change the file accordingly)
