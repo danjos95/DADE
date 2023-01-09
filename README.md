@@ -78,7 +78,7 @@ python tools/train.py -f cfgs/l_s50_onex_dade_tal_filp.py -d 8 -b 32 -c [/path/t
 * -c: model checkpoint path.
 
 ## Online Evaluation
-We modify the online evaluation from sAP
+Modified online evaluation from [sAP](https://github.com/mtli/sAP)
 ```shell
 cd sAP/dade
 . dade_l_streamyolo.sh
