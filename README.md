@@ -7,8 +7,8 @@ This repository is an official implementation of DaDe.
 </p>
 DaDe is simple but effective method for detecting objects in real-time. Multi-time-step prediction can be performed using the feature queue module and feature select module without any additional computation. It achieved state-of-the-art performance in a delayed environment.
 
-## Benchmark
-|Model  | sAP<br>0.5:0.95 | sAP50 |sAP75| weights | COCO pretrained weights |
+## Main Results
+|Model  | sAP 0.5:0.95 | sAP50 |sAP75| weights | COCO pretrained weights |
 | ------        |:---:     |:---:  | :---: | :----: | :----: |
 |[DaDe-l](./cfgs/l_s50_onex_dade_tal_filp.py)    |36.7     |57.9 | 37.3 |[github](https://github.com/yancie-yjr/StreamYOLO/releases/download/0.1.0rc/l_s50_one_x.pth) |[github](https://github.com/yancie-yjr/StreamYOLO/releases/download/0.1.0rc/yolox_l.pth) |
 
