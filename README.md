@@ -14,7 +14,7 @@ This implementation is built upon StreamYOLO
 Download Argoverse-1.1 full dataset and annotation from HERE and unzip it.
 
 The folder structure should be organized as follows before our processing.
-shell
+```
 dade
 ├── exps
 ├── tools
@@ -31,10 +31,10 @@ dade
 │   │       ├── test-meta.json
 │   │       ├── train.json
 │   │       ├── val.json
-'''
+```
 
 ## Environment Setup
-'''
+```
 # basic python libraries
 conda create --name dade python=3.7
 
@@ -54,26 +54,26 @@ source ~/.bashrc
 # Please replace `{cu_version}` and ``{torch_version}`` with the versions you are currently using.
 # You will get import or runtime errors if the versions are incorrect.
 pip install mmcv-full==1.1.5 -f https://download.openmmlab.com/mmcv/dist/{cu_version}/{torch_version}/index.html
-'''
+```
 
 ## Train
 Step1. Build symbolic link to Argoverse-HD dataset.
-'''
+```
 cd <StreamYOLO_HOME>
 ln -s /path/to/your/Argoverse-1.1 ./data/Argoverse-1.1
 ln -s /path/to/your/Argoverse-HD ./data/Argoverse-HD
-'''
+```
 Step2. Train model on Argoverse:
-'''
+```
 python tools/train.py -f cfgs/l_s50_onex_dade_tal_filp.py -d 8 -b 32 -c [/path/to/your/coco_pretrained_path] -o --fp16
-'''
+```
 -d: number of gpu devices.
 -b: total batch size, the recommended number for -b is num-gpu * 8.
 --fp16: mixed precision training.
 -c: model checkpoint path.
 ## Online Evaluation
 We modify the online evaluation from sAP
-'''
+```
 cd sAP/dade
 . dade_l_streamyolo.sh
-'''
+```
