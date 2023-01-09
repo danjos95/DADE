@@ -70,7 +70,7 @@ ln -s /path/to/your/Argoverse-HD ./data/Argoverse-HD
 ```
 Step2. Train model on Argoverse:
 ```shell
-python tools/train.py -f cfgs/l_s50_onex_dade_tal_filp.py -d 8 -b 32 -c [/path/to/your/coco_pretrained_path] -o --fp16
+python tools/train.py -f cfgs/l_s50_onex_dade_tal_filp.py -d 8 -b 32 -c /path/to/coco_pretrained_weights.pth -o --fp16
 ```
 * -d: number of gpu devices.
 * -b: total batch size, the recommended number for -b is num-gpu * 8.
