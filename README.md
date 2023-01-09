@@ -1,7 +1,7 @@
 # Dade: Delay-adaptive Detector for Streaming Perception
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2212.11558)
 <!-- ## Introduction -->
-This repository is an official implementation of DaDe
+This repository is an official implementation of DaDe.
 <p align='center'>
   <img src='figs/dade.png'/>
 </p>
@@ -13,7 +13,7 @@ DaDe is simple but effective method for detecting objects in real-time. Multi-ti
 |[DaDe-l](./cfgs/l_s50_onex_dade_tal_filp.py)    |36.7     |57.9 | 37.3 |[github](https://github.com/yancie-yjr/StreamYOLO/releases/download/0.1.0rc/l_s50_one_x.pth) |[github](https://github.com/yancie-yjr/StreamYOLO/releases/download/0.1.0rc/yolox_l.pth) |
 
 ## Dataset Preparation
-This implementation is built upon StreamYOLO
+This implementation is built upon StreamYOLO.
 
 Download Argoverse-1.1 full dataset and annotation from HERE and unzip it.
 
