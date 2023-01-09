@@ -14,7 +14,7 @@ This implementation is built upon StreamYOLO
 Download Argoverse-1.1 full dataset and annotation from HERE and unzip it.
 
 The folder structure should be organized as follows before our processing.
-'''
+'''shell
 dade
 ├── exps
 ├── tools
