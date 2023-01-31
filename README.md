@@ -15,7 +15,7 @@ DaDe is simple but effective method for detecting objects in real-time. Multi-ti
 ## Dataset Preparation
 This implementation is built upon StreamYOLO.
 
-Download Argoverse-1.1 full dataset and annotation [here](https://www.cs.cmu.edu/~mengtial/proj/streaming/).
+Download Argoverse-1.1 full dataset and annotation at this [link](https://www.cs.cmu.edu/~mengtial/proj/streaming/).
 
 The folder structure should be organized as below.
 ```shell
