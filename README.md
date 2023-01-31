@@ -15,9 +15,9 @@ DaDe is simple but effective method for detecting objects in real-time. Multi-ti
 ## Dataset Preparation
 This implementation is built upon StreamYOLO.
 
-Download Argoverse-1.1 full dataset and annotation from HERE and unzip it.
+Download Argoverse-1.1 full dataset and annotation from [HERE](https://www.cs.cmu.edu/~mengtial/proj/streaming/).
 
-The folder structure should be organized as follows before our processing.
+The folder structure should be organized as below.
 ```shell
 dade
 ├── exps
@@ -44,7 +44,6 @@ conda create --name dade python=3.7
 conda activate dade
 
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
-pip install loguru
 pip3 install yolox==0.3
 
 git clone https://github.com/danjos95/DADE.git
