@@ -80,3 +80,20 @@ Modified online evaluation from [sAP](https://github.com/mtli/sAP)
 cd sAP/dade
 . dade_l_streamyolo.sh
 ```
+## BibTeX
+If this work is helpful for your research, please consider citing:
+
+```
+@conference{visapp23,
+author={Wonwoo Jo. and Kyungshin Lee. and Jaewon Baik. and Sangsun Lee. and Dongho Choi. and Hyunkyoo Park.},
+title={DaDe: Delay-Adaptive Detector for Streaming Perception},
+booktitle={Proceedings of the 18th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications (VISIGRAPP 2023) - Volume 5: VISAPP},
+year={2023},
+pages={39-46},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0011610700003417},
+isbn={978-989-758-634-7},
+issn={2184-4321},
+}
+```
